@@ -1,7 +1,7 @@
 # TAISUKE-Planner
 nutmegハッカソン01-バルス
 
-ToDo
+ToDo\
 ・各コンポーネントの作成
   ・ヘッダー
   ・フッダー
