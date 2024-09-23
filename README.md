@@ -42,8 +42,8 @@ ScheduleBox : スケジュールBox\
 ・ScheduleTime : スケジュール左横の時間表記\
 ・TaskBox : タスクBox\
 
-TaskEditForm : タスクBox編集フォーム\
-・MemberNumber : 人数記入欄\
-・TaskBoxConfirm : タスクBoxの編集内容確定ボタン\
-・TaskBoxDelete : タスクBox削除ボタン\
-・TaskRemark : タスクBoxの備考欄\
+TaskEditForm : タスクBox編集フォーム
+・MemberNumber : 人数記入欄
+・TaskBoxConfirm : タスクBoxの編集内容確定ボタン
+・TaskBoxDelete : タスクBox削除ボタン
+・TaskRemark : タスクBoxの備考欄
