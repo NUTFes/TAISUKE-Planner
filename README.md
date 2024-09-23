@@ -26,24 +26,24 @@ ToDo\
 
 ・配置
 
-各コンポーネントの名称\
+各コンポーネントの名称\ 
 
-Header : ヘッダー\
+Header : ヘッダー\ 
 
-Footer : フッター\
+Footer : フッター\ 
 
-EventName : イベント名\
+EventName : イベント名\ 
 
-EventRemark : イベントの備考欄\
+EventRemark : イベントの備考欄\ 
 
-ScheduleBox : スケジュールBox\
-・ScheduleColumn : スケジュール内の白いセルの集まり\
-・ScheduleFreeForm : 指揮者や場所を記入する欄\
-・ScheduleTime : スケジュール左横の時間表記\
-・TaskBox : タスクBox\
+ScheduleBox : スケジュールBox\ 
+・ScheduleColumn : スケジュール内の白いセルの集まり\ 
+・ScheduleFreeForm : 指揮者や場所を記入する欄\ 
+・ScheduleTime : スケジュール左横の時間表記\ 
+・TaskBox : タスクBox\ 
 
-TaskEditForm : タスクBox編集フォーム
-・MemberNumber : 人数記入欄
-・TaskBoxConfirm : タスクBoxの編集内容確定ボタン
-・TaskBoxDelete : タスクBox削除ボタン
-・TaskRemark : タスクBoxの備考欄
+TaskEditForm : タスクBox編集フォーム\ 
+・MemberNumber : 人数記入欄\ 
+・TaskBoxConfirm : タスクBoxの編集内容確定ボタン\ 
+・TaskBoxDelete : タスクBox削除ボタン\ 
+・TaskRemark : タスクBoxの備考欄\
