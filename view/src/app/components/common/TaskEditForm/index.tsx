@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import styles from "./index.module.css"
 
 const TaskEditForm: React.FC = () => {
   const [formData, setFormData] = useState({
@@ -20,8 +21,10 @@ const TaskEditForm: React.FC = () => {
   };
 
   return (
-    <div className="taskbox-form">
-      <h2>{taskName}</h2>
+    <div className={styles.taskboxform}>
+      <div className={styles.tasknamebox}>
+      <h2 className={styles.taskname}>{taskName}</h2>
+      </div>
       <form>
         <div>
           <label>企画局</label>
