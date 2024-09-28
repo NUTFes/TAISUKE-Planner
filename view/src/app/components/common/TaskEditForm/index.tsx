@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
-import styles from "./index.module.css"
+import styles from "./index.module.css";
+import TaskBox1 from "../ScheduleBox/TaskBox/TaskBox";
+import  home from "../../../page"
 
-const TaskEditForm: React.FC = () => {
+const TaskEditForm1: React.FC = () => {
   const [formData, setFormData] = useState({
     planning: '',
     overseas: '',
@@ -19,7 +21,15 @@ const TaskEditForm: React.FC = () => {
       [name]: value,
     });
   };
-
+  
+  // const [showForm, setShowForm] = useState(false);
+  // const SetForm = () => {
+  //   setShowForm(true);
+  // }
+  
+  const SetForm=()=>{
+    
+  }
   return (
     <div className={styles.taskboxform}>
       <div className={styles.tasknamebox}>
@@ -97,10 +107,11 @@ const TaskEditForm: React.FC = () => {
           <textarea name="remarks"></textarea>
         </div>
         <button type="button">タスクBOX削除</button>
-        <button type="submit">編集内容確定</button>
+        <button type="submit" onClick={SetForm} >編集内容確定</button>
       </form>
     </div>
   );
 };
 
-export default TaskEditForm;
+export default TaskEditForm1;
+

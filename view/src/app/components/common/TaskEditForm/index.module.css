@@ -1,15 +1,15 @@
 .taskboxform{
-    width: 50vh;
+    width: 40vh;
     height: 70vh;
     background-color: rgb(255, 255, 255);
     margin-right: 10vh;
-    margin-left: 8vh;
+    margin-left: 2vh;
     margin-top: 20px;
 }
 
 .tasknamebox{
     background-color: #957A72;
-    height: 70px;
+    height: 50px;
     border-radius: 20px 20px 0px 0px;
 }
 

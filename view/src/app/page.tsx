@@ -1,14 +1,25 @@
 "use client"
-
-import React from 'react';
+import React, {useState}from 'react';
 import styles from "./page.module.css"
 
 import EventName from "./components/common/EventName/EventName"
 import EventRemark from "./components/common/EventRemark/EventRemark"
-import TaskEditForm from "./components/common/TaskEditForm"
+import TaskEditForm1 from "./components/common/TaskEditForm"
 import ScheduleColumn from './components/common/ScheduleBox/ScheduleColumn/ScheduleColumn';
 
 export default function Home() {
+  const [showForm, setShowForm] = useState(false);
+
+
+  const SetForm = () => {
+    setShowForm(true);
+  }
+
+  const DelForm = () => {
+    setShowForm(false);
+
+  }
+
   return (
     <div>
       <EventName initialText="イベント名を入力"/>
@@ -18,9 +29,12 @@ export default function Home() {
           <ScheduleColumn/>
         </div>
         <div className={styles.TaskEditForm}>
-          <TaskEditForm/>
+          {showForm&&(<TaskEditForm1/>)}
+          <button onClick={SetForm}></button>
+          
         </div>
       </div>
     </div>
   );
 }
+
